@@ -11,19 +11,19 @@ package com.ola;
  * Cant find entry for Banana 
  */
 
-{
+public class Dictionary {
 	String word;
 	String definition;
-	
-	public void newEntry(String a,String b){
-		this.word=a;
-		this.definition=b;
-		}
-	
-	public String look(String a){
-		if(a.equals(word))
+
+	public void newEntry(String a, String b) {
+		this.word = a;
+		this.definition = b;
+	}
+
+	public String look(String a) {
+		if (a.equals(word))
 			return this.definition;
-		else 
-			return"Cant find entry for "+a;
-		}
+		else
+			return "Cant find entry for " + a;
+	}
 }
