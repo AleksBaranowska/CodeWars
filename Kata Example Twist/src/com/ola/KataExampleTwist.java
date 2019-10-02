@@ -1,5 +1,5 @@
 package com.ola;
-import java.util.Arrays
+import java.util.Arrays;
 
 /**
  * This is an easy twist to the example kata (provided by Codewars when learning
