@@ -20,9 +20,4 @@ public class GrassHopper {
 		}
 		return sum;
 	}
-
-	public static void main(String[] args) {
-
-	}
-
 }
