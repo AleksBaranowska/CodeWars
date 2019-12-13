@@ -3,7 +3,7 @@
   <persistedState key="memento" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>&#xD;&#xA;&lt;workbench>&#xD;&#xA;&lt;mruList/>&#xD;&#xA;&lt;/workbench>"/>
   <tags>activeSchemeId:org.eclipse.ui.defaultAcceleratorConfiguration</tags>
   <tags>ModelMigrationProcessor.001</tags>
-  <children xsi:type="basic:TrimmedWindow" xmi:id="_Een00gVxEeqn_tC9kvcB1Q" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_EynH0AVxEeqn_tC9kvcB1Q" label="%trimmedwindow.label.eclipseSDK" x="228" y="228" width="1024" height="768">
+  <children xsi:type="basic:TrimmedWindow" xmi:id="_Een00gVxEeqn_tC9kvcB1Q" elementId="IDEWindow" contributorURI="platform:/plugin/org.eclipse.platform" selectedElement="_EynH0AVxEeqn_tC9kvcB1Q" label="%trimmedwindow.label.eclipseSDK" x="815" y="397" width="1024" height="740">
     <persistedState key="coolBarVisible" value="true"/>
     <persistedState key="perspectiveBarVisible" value="true"/>
     <persistedState key="isRestored" value="true"/>
@@ -357,7 +357,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_E094QAVxEeqn_tC9kvcB1Q" elementId="org.eclipse.ui.workbench.file">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_E1LToAVxEeqn_tC9kvcB1Q" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_EfW00gVxEeqn_tC9kvcB1Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JyL5cB2JEeqNUsWng8Frbw" elementId="print" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/print_edit.png" tooltip="Print" command="_EfW00gVxEeqn_tC9kvcB1Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_E0-fUAVxEeqn_tC9kvcB1Q" elementId="group.edit" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -385,7 +385,7 @@
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_E0_GZAVxEeqn_tC9kvcB1Q" elementId="org.eclipse.ui.workbench.navigate">
         <tags>Draggable</tags>
-        <children xsi:type="menu:HandledToolItem" xmi:id="_E1NI0AVxEeqn_tC9kvcB1Q" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_EfWNrgVxEeqn_tC9kvcB1Q"/>
+        <children xsi:type="menu:HandledToolItem" xmi:id="_JySAEB2JEeqNUsWng8Frbw" elementId="org.eclipse.ui.window.pinEditor" visible="false" iconURI="platform:/plugin/org.eclipse.ui/icons/full/etool16/pin_editor.png" tooltip="Pin Editor" type="Check" command="_EfWNrgVxEeqn_tC9kvcB1Q"/>
       </children>
       <children xsi:type="menu:ToolBar" xmi:id="_E0_tcAVxEeqn_tC9kvcB1Q" elementId="group.editor" toBeRendered="false">
         <tags>toolbarSeparator</tags>
@@ -2427,6 +2427,8 @@
   <commands xmi:id="_ExOnwAVxEeqn_tC9kvcB1Q" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.doc.legend.show.action" commandName="Show UI Legend" description="Show Tasks UI Legend" category="_EfL1lAVxEeqn_tC9kvcB1Q"/>
   <commands xmi:id="_ExOnwQVxEeqn_tC9kvcB1Q" elementId="AUTOGEN:::org.eclipse.mylyn.tasks.ui.actions.view/org.eclipse.mylyn.context.ui.actions.tasklist.focus" commandName="Focus on Workweek" description="Focus on Workweek" category="_EfL1lAVxEeqn_tC9kvcB1Q"/>
   <commands xmi:id="_ExOnwgVxEeqn_tC9kvcB1Q" elementId="AUTOGEN:::org.eclipse.acceleo.ui.interpreter.debug.VariableViewActions/org.eclipse.acceleo.ui.interpreter.debug.AddVariablesToInterpreterAction" commandName="Adds variables." description="Add the selected variables in the interpreter." category="_EfL1lAVxEeqn_tC9kvcB1Q"/>
+  <commands xmi:id="_Eo2FYRv6Eeql765mB97OXw" elementId="com.codota.eclipse.CodotaPlugin" commandName="Codota" category="_EfL1lAVxEeqn_tC9kvcB1Q"/>
+  <commands xmi:id="_Eo2scBv6Eeql765mB97OXw" elementId="com.codota.eclipse.actions.CodotaSearchActionHandler" commandName="Show Codota suggestions" category="_EfL1lAVxEeqn_tC9kvcB1Q"/>
   <addons xmi:id="_Een02wVxEeqn_tC9kvcB1Q" elementId="org.eclipse.e4.core.commands.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.core.commands/org.eclipse.e4.core.commands.CommandServiceAddon"/>
   <addons xmi:id="_Een03AVxEeqn_tC9kvcB1Q" elementId="org.eclipse.e4.ui.contexts.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.services/org.eclipse.e4.ui.services.ContextServiceAddon"/>
   <addons xmi:id="_Een03QVxEeqn_tC9kvcB1Q" elementId="org.eclipse.e4.ui.bindings.service" contributorURI="platform:/plugin/org.eclipse.platform" contributionURI="bundleclass://org.eclipse.e4.ui.bindings/org.eclipse.e4.ui.bindings.BindingServiceAddon"/>

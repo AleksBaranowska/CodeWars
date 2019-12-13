@@ -82,3 +82,780 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-11-29 10:27:22.772 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\olaska\git\CodeWars -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-11-29 10:27:27.605
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.equinox.p2.updatechecker 4 0 2019-11-29 10:28:08.382
+!MESSAGE Exception in update check thread
+!STACK 0
+org.eclipse.core.runtime.OperationCanceledException
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:126)
+	at org.eclipse.equinox.internal.p2.transport.ecf.RepositoryTransport.download(RepositoryTransport.java:158)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.handleRemoteIndexFile(AbstractRepositoryManager.java:724)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadIndexFile(AbstractRepositoryManager.java:718)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.oomph.util.ReflectUtil.invokeMethod(ReflectUtil.java:117)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadIndexFile(CachingRepositoryManager.java:374)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager.loadRepository(CachingRepositoryManager.java:182)
+	at org.eclipse.oomph.p2.internal.core.CachingRepositoryManager$Metadata.loadRepository(CachingRepositoryManager.java:476)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:110)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:105)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.loadMetadataRepository(ProvisioningContext.java:238)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getLoadedMetadataRepositories(ProvisioningContext.java:216)
+	at org.eclipse.equinox.p2.engine.ProvisioningContext.getMetadata(ProvisioningContext.java:304)
+	at org.eclipse.equinox.internal.p2.director.SimplePlanner.updatesFor(SimplePlanner.java:1003)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker.checkForUpdates(UpdateChecker.java:136)
+	at org.eclipse.equinox.internal.p2.updatechecker.UpdateChecker$UpdateCheckThread.run(UpdateChecker.java:78)
+!SESSION 2019-12-11 10:39:01.873 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.java.product -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product -data C:\Users\olaska\git\CodeWars -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-11 10:39:06.280
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2019-12-11 11:10:43.013
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2019-12-11 11:10:43.013
+!MESSAGE session context was:(profile=C__Users_olaska_eclipse_java-2019-03_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,com.sun.jna,4.5.1.v20190425-1842
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,com.sun.jna.platform,4.5.1.v20190425-1842
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.apache.httpcomponents.httpclient.win,4.5.6.v20190213-1947
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.apache.sshd.sftp,2.2.0.v20190425-2127
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.bouncycastle.bcpg,1.61.0.v20190602-1335
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.bouncycastle.bcpkix,1.61.0.v20190602-1335
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.bouncycastle.bcprov,1.61.0.v20190602-1335
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.core,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.doc,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.mylyn.ui,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.013
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.ui,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.core,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.core.win32,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.help.ui,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.ui,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.ui.css,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.archive,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.ssh.apache,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.builds.core,1.17.0.v20190129-0014
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.builds.ui,1.17.0.v20190111-2151
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.014
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.http.core,1.17.0.v20190116-2232
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.015
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.git.core,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.git.ui,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.hudson.core,1.17.0.v20190115-0250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.hudson.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.016
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.versions.core,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.versions.ui,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.acceleo.aql,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.acceleo.aql.ide,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.acceleo.mtl,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.acceleo.mtl.ide,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.interpreter,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.formatdata,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.layoutdata,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.sequence,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.sequence.edit,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.sequence.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.doc,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ecore.extender,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.017
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.diagram,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.properties,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.properties.ext.widgets.reference,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.sequence,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.table,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.tree,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.base,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.draw2d,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.e3,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.042
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.e3.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.043
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.emf,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.043
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.emf.edit,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.043
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.emf.tx,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.emf.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.gef,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.gmf.notation,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.gmf.runtime,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.ide,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.jface,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.swt,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.interpreter,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.core,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.defaultrules,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.edit,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.ext.widgets.reference,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.ext.widgets.reference.edit,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.samples.family,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.synchronizer,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.table,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.table.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.table.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.tree,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.tree.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.tree.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui.editor,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.044
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui.properties,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.045
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui.properties.ext.widgets.reference,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.045
+!MESSAGE No repository found containing: osgi.bundle,com.jcraft.jsch,0.1.55.v20190404-1902
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.046
+!MESSAGE No repository found containing: osgi.bundle,org.apache.sshd.osgi,2.2.0.v20190425-2127
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.046
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.046
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit.mylyn,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.046
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.epp.mpc,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.046
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.046
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.ssh.apache,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.046
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.046
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.builds,1.17.0.v20190129-0014
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories.http,1.17.0.v20190116-2232
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.git,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.hudson,1.17.0.v20190115-0250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.versions,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.aql,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.properties.feature,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.runtime,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.runtime.ide.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.samples,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.specifier,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.047
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.specifier.properties.feature,6.1.3.201905061019
+
+!ENTRY org.eclipse.equinox.p2.engine 4 4 2019-12-11 11:10:43.066
+!MESSAGE An error occurred while collecting items to be installed
+!SUBENTRY 1 org.eclipse.equinox.p2.engine 4 0 2019-12-11 11:10:43.066
+!MESSAGE session context was:(profile=C__Users_olaska_eclipse_java-2019-03_eclipse, phase=org.eclipse.equinox.internal.p2.engine.phases.Collect, operand=, action=).
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,com.sun.jna,4.5.1.v20190425-1842
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,com.sun.jna.platform,4.5.1.v20190425-1842
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.apache.httpcomponents.httpclient.win,4.5.6.v20190213-1947
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.apache.sshd.sftp,2.2.0.v20190425-2127
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.bouncycastle.bcpg,1.61.0.v20190602-1335
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.bouncycastle.bcpkix,1.61.0.v20190602-1335
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.bouncycastle.bcprov,1.61.0.v20190602-1335
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.core,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.doc,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.mylyn.ui,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.egit.ui,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.core,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.core.win32,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.help.ui,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.ui,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.epp.mpc.ui.css,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.archive,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.jgit.ssh.apache,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.bugzilla.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.builds.core,1.17.0.v20190129-0014
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.builds.ui,1.17.0.v20190111-2151
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.identity.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.net,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.feed,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.notifications.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.core,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.http.core,1.17.0.v20190116-2232
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.repositories.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.screenshots,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.ui,3.25.0.v20180706-1510
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.workbench,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.commons.xmlrpc,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.tasks.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.066
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.context.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.debug.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.core,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.discovery.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.git.core,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.git.ui,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.help.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.hudson.core,1.17.0.v20190115-0250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.hudson.ui,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ant,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.ide.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.tasks,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.java.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.monitor.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.resources.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.bugs,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.core,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.core,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.index.ui,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.search,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.tasks.ui,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.team.ui,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.versions.core,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.mylyn.versions.ui,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.acceleo.aql,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.acceleo.aql.ide,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.acceleo.mtl,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.acceleo.mtl.ide,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.interpreter,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.common.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.formatdata,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.layoutdata,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.sequence,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.sequence.edit,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.sequence.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.diagram.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.doc,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ecore.extender,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.067
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.diagram,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.properties,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.properties.ext.widgets.reference,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.sequence,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.table,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.editor.tree,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.base,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.draw2d,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.e3,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.e3.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.emf,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.emf.edit,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.emf.tx,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.emf.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.gef,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.gmf.notation,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.gmf.runtime,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.ide,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.jface,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ext.swt,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.interpreter,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.core,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.defaultrules,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.edit,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.ext.widgets.reference,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.properties.ext.widgets.reference.edit,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.samples.family,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.synchronizer,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.table,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.table.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.table.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.tree,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.tree.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.tree.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui.editor,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui.ext,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui.properties,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.eclipse.sirius.ui.properties.ext.widgets.reference,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,com.jcraft.jsch,0.1.55.v20190404-1902
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.068
+!MESSAGE No repository found containing: osgi.bundle,org.apache.sshd.osgi,2.2.0.v20190425-2127
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.egit.mylyn,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.epp.mpc,1.7.7.v20190521-1752
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.jgit.ssh.apache,5.5.1.201910021850-r
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.bugzilla_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.builds,1.17.0.v20190129-0014
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.identity,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.notifications,1.17.0.v20190115-0848
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories,1.17.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.commons.repositories.http,1.17.0.v20190116-2232
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.context_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.discovery,3.25.0.v20190131-2250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.git,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.hudson,1.17.0.v20190115-0250
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.ide_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.java_feature,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.monitor,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.tasks.ide,3.25.0.v20180628-1730
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.team_feature,3.25.0.v20180922-1243
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn.versions,1.17.0.v20180628-1737
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.mylyn_feature,3.25.0.v20190128-2356
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.aql,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.properties.feature,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.069
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.runtime,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.070
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.runtime.ide.ui,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.070
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.samples,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.070
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.specifier,6.1.3.201905061019
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 0 2019-12-11 11:10:43.070
+!MESSAGE No repository found containing: org.eclipse.update.feature,org.eclipse.sirius.specifier.properties.feature,6.1.3.201905061019
+
+!ENTRY org.eclipse.ui 4 0 2019-12-11 12:31:17.636
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+
+!ENTRY org.eclipse.ui 4 0 2019-12-11 12:31:17.723
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4699)
+	at org.eclipse.swt.SWT.error(SWT.java:4614)
+	at org.eclipse.swt.SWT.error(SWT.java:4585)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:451)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:350)
+	at org.eclipse.swt.widgets.Composite.getChildren(Composite.java:469)
+	at org.eclipse.epp.internal.mpc.ui.wizards.MarketplaceDropAdapter.lambda$0(MarketplaceDropAdapter.java:136)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:40)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:185)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3919)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3550)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1173)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1062)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:155)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:644)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:338)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:566)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:155)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:203)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:137)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:107)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:400)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:255)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:661)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:597)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1476)
+!SESSION 2019-12-12 14:01:09.990 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-12 14:01:30.528
+!MESSAGE Using Apache MINA sshd as ssh client.
+!SESSION 2019-12-13 10:15:19.126 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_201
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=pl_PL
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-12-13 10:15:47.122
+!MESSAGE Using Apache MINA sshd as ssh client.
