@@ -68,3 +68,29 @@ public class EightiesKids3 {
 
 	}
 }
+
+
+/**
+ * Solution 2:
+ * use Set (does not allow duplicates) by adding an element to Set and trying to add 
+ * duplicate element again
+ * for (String element : array)
+ * if(set.add(element) == false)
+ * String found = element;
+ * Solution 3:
+ * use hash table by looping through an array (enhanced loop) and insert each element
+ * and its count into hashtable. Check if hashtble contains the elements or not, 
+ * if is then increment the count otherwise insert element with count 1. All values > 1
+ * are duplicate elements
+ * for (Strok elements : array){
+ * Integer count = elementAndCount(get.elemet);
+ * if(count == null)
+ * elementAndCount.put(element.1);}
+ * else{
+ * elementAndCount.put(element, ++count);}
+ * }
+ * Set<Entry<String, Integer> entrySet = elementAndCount.entrySet();
+ * for (Entry<String, Integer> entry : entrySet) { 
+ * if (entry.getValue() > 1) {
+ *  System.out.printf("duplicate element '%s' and count '%d' :", entry.getKey(), entry.getValue()); } }
+ */
