@@ -30,5 +30,3 @@ public class Kata {
 		System.out.println(ageInDays(2018, 12, 18));
 	}
 }
-
-/
