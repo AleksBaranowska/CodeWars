@@ -29,7 +29,7 @@ public class BinarySxore {
 	}
 
 	public static void main(String[] args) {
-		sxore(new BigInteger("50"));
+		
 		System.out.println(sxore(new BigInteger("0")));
 		System.out.println(sxore(new BigInteger("1")));
 		System.out.println(sxore(new BigInteger("50")));
